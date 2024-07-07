@@ -1,0 +1,102 @@
+echo "# Code-bypass-suysbs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Joaov8tor/Code-bypass-suysbs.git
+git push -u origin main
+$nomention
+
+code fluxus:
+
+# $getServerInvite[1204807437899669555]
+
+
+$httpGet[http://45.90.13.151:6041/?url=$message]
+$description[copy key:]
+$addField[copy key  fluxus  :;```$httpResult[key]```]
+$addField[request link:;$message]
+$addField[timestap:;$executionTime.00s]
+$color[#0c0b0b]
+___________________________________________________________
+
+code delta:
+
+$nomention
+$httpGet[http://45.90.13.151:6041/?url=$message]
+
+$addField[delta key;```$httpResult[key]```]
+$addField[request link:;$message]
+
+
+$color[32cd32]
+# $getServerInvite[1204807437899669555]
+
+___________________________________________________________
+
+code codex:
+
+$nomention
+$reply
+$botTyping
+# $getServerInvite[1204807437899669555]
+$description[CodeX key system updade soon]
+$addButton[no;Support;Support Server?;primary;no;]
+$thumbnail[https://cdn.discordapp.com/emojis/1201494565333512302.gif?size=96&quality=lossless]
+$addField[Request link:;$message]
+$addField[made by;suysbs owner]
+
+
+
+
+$removeButtons
+
+___________________________________________________________
+
+code arceus
+$nomention
+$reply
+$botTyping
+
+# $getServerInvite[1204807437899669555]
+ 
+$httpGet[http://optimus.forcehost.net:25637/bypass?link=$message&key=WQiIcMfF4pPCqQZ&type=yxu]
+
+$description[
+ $httpResult[result]]
+$addButton[no;Support;Support Server?;primary;no;]
+$thumbnail[https://cdn.discordapp.com/emojis/1201494565333512302.gif?size=96&quality=lossless]
+$addField[Request link:;$message]
+$addField[made by ;suybs bypasser]
+
+
+
+
+$removeButtons
+$color
+___________________________________________________________
+code banana;
+$try
+$nomention
+# $getServerInvite[1204807437899669555]
+$httpGet[https://madkung.vercel.app/banana-hub-api?api_key=XqzyaenZishd33axPYPz]
+$reply
+$botTyping
+$title[Banana Hub Bypass]
+$color[#00ff00]
+$addField[**Key:**;```$httpResult[key]```]
+$addField[**Script:**;```
+repeat task.wait() until game:IsLoaded()
+getgenv().Key = "$httpResult[key]"
+getgenv().NewBanana = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()```]
+$addField[**Time Taken:**;```$httpResult[time_taken]```]
+
+$addTimestamp
+$catch
+$title[Error ❌]
+$color[#ff0000]
+$description[```API Offline, try again later```]
+$c[Delete catch if code error or use "error" command]
+$endtry
+___________________________________________________________
